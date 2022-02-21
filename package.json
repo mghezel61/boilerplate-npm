@@ -1,9 +1,17 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "Mojtaba Gh",
+	"description": "A project that will boost your services with fastest speed",
+	"keywords": [
+		"backend"
+	],
+	"license": "MIT",
+	"version": "1.0.0",
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.14.0",
+		"moment": "^2.29.1"
 	},
+	"package": "~2.10.2",
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
